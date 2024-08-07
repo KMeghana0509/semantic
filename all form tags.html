@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job application form</title>
+</head>
+<body>
+    <form action="">
+        <h1>Software Developer Job application form</h1>
+        <fieldset>
+            <legend>
+                Personl Information
+            </legend>
+            <label for="name">Full name:</label>
+            <input type="text" name="First name" id="name" minlength="3" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" name="" id="email" required><br> <br>
+            <label for="phnu">Phone Number:</label>
+            <input type="number" id="phnu" required>
+            </legend>
+        </fieldset><br><br>
+        <fieldset>
+            <legend>
+                Job Details
+            </legend>
+            <legend>
+                <label for="position">Position Applied for:</label>
+                <select name="" id="position">
+                    <option value="Software developer">Software developer</option>
+                    <option value="Analyat">Analyst</option>
+                    <option value="Support engineer">Support engineer</option>
+                </select><br><br>
+                <label for="exp">Years of Experience:</label>
+                <input type="number" name="" id="exp" max="" min="0"><br><br>
+                <label for="ts">Technical Skills</label>
+                <input type="text" id="exp"><br><br>
+                <label for="location">Preferred Location</label>
+                <select name="" id="location">
+                    <option value="Remote">Remote</option>
+                    <option value="">Hyderabad</option>
+                    <option value="">Banglore</option>
+                    <option value="">Delhi</option>
+                    <option value="">Pune</option>
+                </select><br><br>
+                <label for="file">Upload Resume:</label>
+                <input type="file" id="file">
+            </legend>
+        </fieldset><br>
+        <button type="submit">Submit Application</button>
+    </form>
+</body>
+</html>
